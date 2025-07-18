@@ -1,0 +1,12 @@
+/* 放大 logo 50% 并向左移动 */
+.VPNavBarTitle .logo {
+  transform: scale(1.5) translateX(-7px);
+  transform-origin: left center;
+}
+
+/* 调整 logo 容器的间距和垂直对齐 */
+.VPNavBarTitle {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
