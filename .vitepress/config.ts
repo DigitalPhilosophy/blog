@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Digital Philosophy',
   description: 'Exploring the intersection of technology and human values',
+  base: '/blog/',
   
   // Multi-language configuration
   locales: {
